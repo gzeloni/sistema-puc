@@ -1,0 +1,13 @@
+{
+    "estudantes": [
+        {
+            "nome": "Gustavo Zeloni",
+            "idade": 21,
+            "matricula": "12345"
+        }
+    ],
+    "disciplinas": [],
+    "professores": [],
+    "turmas": [],
+    "matriculas": []
+}
