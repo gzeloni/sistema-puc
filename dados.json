@@ -1,0 +1,20 @@
+{
+    "estudantes": [
+        {
+            "nome": "Gustavo Zeloni",
+            "idade": 20,
+            "matricula": "123456789",
+            "curso": "ADS"
+        }
+    ],
+    "disciplinas": [],
+    "professores": [
+        {
+            "nome": "Professor blablabla",
+            "departamento": "Raciocinio computacional - ADS",
+            "email": "prof@blabla.com"
+        }
+    ],
+    "turmas": [],
+    "matriculas": []
+}
