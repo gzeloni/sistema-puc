@@ -6,8 +6,30 @@
             "cpf": "139.422.769-84"
         }
     ],
-    "disciplinas": [],
-    "professores": [],
-    "turmas": [],
-    "matriculas": []
+    "disciplinas": [
+        {
+            "codigo": 12345,
+            "nome": "Teste"
+        }
+    ],
+    "professores": [
+        {
+            "codigo": 56789,
+            "nome": "Prof Teste",
+            "cpf": "123.123.123-00"
+        }
+    ],
+    "turmas": [
+        {
+            "codigo": 1,
+            "cod_professor": 56789,
+            "cod_disciplina": 12345
+        }
+    ],
+    "matriculas": [
+        {
+            "cod_turma": 1,
+            "codigo": 1112023105871
+        }
+    ]
 }
