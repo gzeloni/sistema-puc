@@ -2,7 +2,6 @@ from models.carregar_dados import carregar_dados  # Importa a função carregar_
 from models.menu import menu_operacoes  # Importa a função menu_operacoes do módulo models.menu
 
 def main():
-    global dados  # Permite o acesso à variável dados em todo o programa
     dados = carregar_dados()  # Chama a função carregar_dados e atribui o resultado à variável dados
     
     while True:

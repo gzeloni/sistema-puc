@@ -1,3 +1,4 @@
+from models.formatar_cpf import formatar_cpf
 from models.salvar_dados import salvar_dados  # Importa a função salvar_dados do módulo models.salvar_dados
 
 def incluir_registro(chave, dados):
@@ -5,9 +6,9 @@ def incluir_registro(chave, dados):
     novo_registro = {}  # Cria um novo dicionário para armazenar o registro
 
     if chave == "estudantes":  # Se a chave for "estudantes"
-        novo_registro["nome"] = input("Digite o nome do estudante: ")  # Solicita ao usuário o nome do estudante
-        novo_registro["idade"] = int(input("Digite a idade do estudante: "))  # Solicita ao usuário a idade do estudante
-        novo_registro["matricula"] = input("Digite a matrícula do estudante: ")  # Solicita ao usuário a matrícula do estudante
+        novo_registro["codigo"] = int(input("Digite o código do estudante (RA): "))  # Solicita ao usuário o nome do estudante
+        novo_registro["nome"] = input("Digite o nome do estudante: ")  # Solicita ao usuário a idade do estudante
+        novo_registro["cpf"] = formatar_cpf(input("Digite o CPF do estudante: "))  # Solicita ao usuário a matrícula do estudante
     elif chave == "disciplinas":  # Se a chave for "disciplinas"
         novo_registro["nome"] = input("Digite o nome da disciplina: ")  # Solicita ao usuário o nome da disciplina
         novo_registro["codigo"] = input("Digite o código da disciplina: ")  # Solicita ao usuário o código da disciplina

@@ -1,20 +1,13 @@
 {
     "estudantes": [
         {
-            "nome": "Gustavo Zeloni",
-            "idade": 20,
-            "matricula": "123456789",
-            "curso": "ADS"
+            "codigo": 1112023105871,
+            "nome": "Gustavo ",
+            "cpf": "139.422.769-84"
         }
     ],
     "disciplinas": [],
-    "professores": [
-        {
-            "nome": "Professor blablabla",
-            "departamento": "Raciocinio computacional - ADS",
-            "email": "prof@blabla.com"
-        }
-    ],
+    "professores": [],
     "turmas": [],
     "matriculas": []
 }
