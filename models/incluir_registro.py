@@ -61,7 +61,7 @@ def incluir_registro(chave, dados):
                 input("Digite o código da matricula: "))
             novo_registro["cod_turma"] = int(
                 input("Digite o código da turma: "))
-            novo_registro["codigo"] = int(
+            novo_registro["cod_estudante"] = int(
                 input("Digite o código do estudante (RA): "))
 
             # Valida o código da turma e do estudante antes de incluir a matrícula
@@ -69,7 +69,7 @@ def incluir_registro(chave, dados):
                 print("Erro: código da turma inválido. A turma não existe.")
                 return
 
-            if not validar_codigo(novo_registro["codigo"], "estudantes", dados):
+            if not validar_codigo(novo_registro["cod_estudante"], "estudantes", dados):
                 print("Erro: código do estudante inválido. O estudante não existe.")
                 return
 
